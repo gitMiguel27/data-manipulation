@@ -66,3 +66,33 @@ console.log (`The four numbers are valid according to the provided criteria: ${i
 const isUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
 
 console.log (`The four numbers are valid according to the provided criteria: ${isValid} && ${isDivisibleBy5} && ${firstNumLargerThanLast} && ${arithmeticChain} && ${isUnder25}.`);
+
+
+// Part 2: PRACTICAL MATH
+
+// Traveling at 55 mph:
+
+// How many gallons of fuel will you need for the entire trip?
+const totalGallons55 = 1500 / 30;
+// Will your budget be enough to cover the fuel expense?
+const enoughBudget55 = totalGallons * 3 <= 175;
+// How long will the trip take, in hours?
+const totalHours55 = 1500 / 55;
+
+// Traveling at 60 mph:
+
+// How many gallons of fuel will you need for the entire trip?
+const totalGallons60 = 1500 / 28;
+// Will your budget be enough to cover the fuel expense?
+const enoughBudget60 = totalGallons * 3 <= 175;
+// How long will the trip take, in hours?
+const totalHours60 = 1500 / 60;
+
+// Traveling at 75 mph:
+
+// How many gallons of fuel will you need for the entire trip?
+const totalGallons75 = 1500 / 23;
+// Will your budget be enough to cover the fuel expense?
+const enoughBudget75 = totalGallons * 3 <= 175;
+// How long will the trip take, in hours?
+const totalHours75 = 1500 / 75;

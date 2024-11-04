@@ -53,3 +53,7 @@ const firstNumLargerThanLast = n1 > n4;
     // ((n2 - n1) * n3) % n4
 
 const arithmeticChain = (n2 - n1) * n3 % n4 ;
+
+// Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons
+
+const isUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;

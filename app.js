@@ -39,3 +39,6 @@ console.log(isValid);
 
 // Check if all numbers are divisible by 5
 const isDivisibleBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) === 0;
+
+// Check if the first number is larger than the last
+const firstNumLargerThanLast = n1 > n4;

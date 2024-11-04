@@ -1,3 +1,5 @@
+// Part 1: MATH PROBLEMS
+
 // The initial numbers that must be verified.
 const n1 = 8;
 const n2 = 17;
@@ -34,3 +36,6 @@ const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 
 // Finally, log the results.
 console.log(isValid);
+
+// Check if all numbers are divisible by 5
+const isDivisibleBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) === 0;

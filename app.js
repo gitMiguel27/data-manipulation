@@ -35,13 +35,18 @@ const isUnique = n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 
 const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
 
 // Finally, log the results.
-console.log(isValid);
+console.log (`The four numbers are valid according to the provided criteria: ${isValid}.`);
 
 // Check if all numbers are divisible by 5
 const isDivisibleBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) === 0;
 
+console.log (`The four numbers are valid according to the provided criteria: ${isValid} && ${isDivisibleBy5}.`);
+
+
 // Check if the first number is larger than the last
 const firstNumLargerThanLast = n1 > n4;
+
+console.log (`The four numbers are valid according to the provided criteria: ${isValid} && ${isDivisibleBy5} && ${firstNumLargerThanLast}.`);
 
 // Accomplish the following arithmetic chain:
 
@@ -54,6 +59,10 @@ const firstNumLargerThanLast = n1 > n4;
 
 const arithmeticChain = (n2 - n1) * n3 % n4 ;
 
+console.log (`The four numbers are valid according to the provided criteria: ${isValid} && ${isDivisibleBy5} && ${firstNumLargerThanLast} && ${arithmeticChain}.`);
+
 // Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons
 
 const isUnder25 = n1 < 25 && n2 < 25 && n3 < 25 && n4 < 25;
+
+console.log (`The four numbers are valid according to the provided criteria: ${isValid} && ${isDivisibleBy5} && ${firstNumLargerThanLast} && ${arithmeticChain} && ${isUnder25}.`);

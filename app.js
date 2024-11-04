@@ -42,3 +42,14 @@ const isDivisibleBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) === 0;
 
 // Check if the first number is larger than the last
 const firstNumLargerThanLast = n1 > n4;
+
+// Accomplish the following arithmetic chain:
+
+// Subtract the first number from the second number.
+    // n2 - n1
+// Multiply the result by the third number.
+    // (n2 - n1) * n3 
+// Find the remainder of dividing the result by the fourth number.
+    // ((n2 - n1) * n3) % n4
+
+const arithmeticChain = (n2 - n1) * n3 % n4 ;
